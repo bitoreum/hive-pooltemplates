@@ -8,15 +8,15 @@
     }
   },
   {
-    "coin": "RTM",
+    "coin": "BTRM",
     "servers": [
       {
         "dif": "Low diff",
         "urls": [
           "my.bugminer.org:3008"
         ],
-        "ssl_urls": [
-          "my.bugminer.org:4008"
+        "SOLO": [
+          "my.bugminer.org:9090"
         ]
       },
       {
@@ -24,8 +24,8 @@
         "urls": [
           "my.bugminer.org:3032"
         ],
-        "ssl_urls": [
-          "my.bugminer.org:4032"
+        "SOLO": [
+          "my.bugminer.org:9090"
         ]
       },
       {
@@ -33,9 +33,23 @@
         "urls": [
           "my.bugminer.org:3256"
         ],
-        "ssl_urls": [
-          "my.bugminer.org:4256"
+        "SOLO": [
+          "my.bugminer.org:9090"
         ]
+      }
+    ],
+    "miners": {
+        "_prototype": "miners_ghostrider"
+    },
+  }
+  {
+    "coin": "BBC",
+    "servers": [
+      {
+        "dif": "Normal",
+        "urls": [
+          "my.bugminer.org:9191"
+        ],
       }
     ],
     "miners": {
